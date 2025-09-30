@@ -32,6 +32,8 @@ These dates should be broken into distinct Date entries in ArchivesSpace regardl
 
 Create a `plugins/timewalk` directory in your ArchivesSpace directory, copy the repository into that directory, and add `timewalk` to your `AppConfig[:plugins]` list.
 
+Run `initialize-plugin.sh timewalk` in the ArchivesSpace `scripts` directory. You may need to make the timewalk directory group writable before AND after installing the plugin.
+
 ## Credits
 
 Created by Alexander Duryee at The New York Public Library.
